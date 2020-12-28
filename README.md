@@ -38,5 +38,5 @@ League of Legends is an online multiplayer game with 115 million active players 
 
 ### Additional Contents
 1. Slide deck presentation ('presentation.pdf')
-2. Related blog on     (https://scottokamura.github.io/data_science_non-technical_skill_slideshows)
+2. Related blog on model validation, model tuning, gridsearchcv (http://scottokamura.github.io/gridsearchcv_for_beginners)
 3. Data taken from Oracle's Elixir (https://oracleselixir.com/tools/downloads)
