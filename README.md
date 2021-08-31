@@ -1,42 +1,38 @@
 # 2020 League of Legends World Championship Tournament Match Winner Prediction
 
-## Introduction
-### Objective
+![lol banner](https://user-images.githubusercontent.com/65571381/131436642-07a3649e-826b-4cc4-9534-5bcd9a44d083.png)
 
-League of Legends is an online multiplayer game with 115 million active players as of October 2020. The professional League of Legends esport has grown all over the world with major companies such as SK Telecom (the largest telecommunications company in South Korea) and NBA franchises like the Golden State Warriors and the Houston Rockets investing in North American teams. The world championship tournament boasts a total prize pool of $2.225 million with additional sponsorships from companies such as MasterCard, State Farm, and Louis Vuitton. In this project, I am attempting to use match data collected during the summer season playoffs as well as the round-robin phase of Worlds to predict the winner of the tournament's knockout stage.
+![GitHub repo size](https://img.shields.io/github/repo-size/scottokamura/LoL-Worlds-2020-Match-Prediction)
+![last commit date](https://img.shields.io/github/last-commit/scottokamura/LoL-Worlds-2020-Match-Prediction)
+![forks](https://img.shields.io/github/forks/scottokamura/LoL-Worlds-2020-Match-Prediction?style=social)
+![stars](https://img.shields.io/github/stars/scottokamura/LoL-Worlds-2020-Match-Prediction?style=social)
 
-### Summary of Approach
-1. Determine the target audience
-    - fans who want to accurately predict who may win the tournament, based on data
-    - coaches to see the most important features/stats that will win games
-2. Clean dataset
-   - drop outliers
-   - transform data if necessary (log, squared, etc)
-   - condense data so each entry represents a match between 2 teams
-       - including stats for each respective team
-   - create dataframe with average stats over x games
-   - check and correct correlating columns
-3. Identify categorical and continuous variables
-   - create dummy variables for categorical variables
-4. Create pipelines for different models
-    - compare baseline model results
-5. Parameter tuning
-    - use GridSearchCV to determine best parameters for each model
-6. Compare models post-grid search
-    - use accuracy, f1, auc scores to determine best model
+This repo contains a match prediction model for the 2020 League of Legends World Championship Tournament. The model allows fans to predict the winner of a match based on game features such as kills, deaths, and total gold. 
 
-### Methods and Technologies Used
-1. Python libraries
-2. Pandas, numpy
-3. Matplotlib, seaborn
-4. Scikit-learn, xgboost
+## Prerequisites
+Before you continue, ensure you have met the following requirements:
+* Python 3.0+
 
+
+### Installing Python 3.0+
+  1. Visit [python.org](https://www.python.org/downloads/)
+  2. Choose your operating system
+  3. Follow the download link and setup wizard instructions
 
 ## How to Use Repository
 1. Fork and clone this repository
 2. Open 'LoL Worlds 2020.ipynb'
 
+### Methods and Technologies Used
+- Pandas, numpy
+- matplotlib, seaborn
+- sklearn
+
+## Contributors
+Thank you to [Oracle's Elixir](https://oracleselixir.com/tools/downloads) for providing the raw dataset
+
+
 ### Additional Contents
-1. Slide deck presentation ('presentation.pdf')
-2. Related blog on model validation, model tuning, gridsearchcv (http://scottokamura.github.io/gridsearchcv_for_beginners)
-3. Data taken from Oracle's Elixir (https://oracleselixir.com/tools/downloads)
+1. [LoL Worlds 2020 Presentation](https://github.com/scottokamura/LoL-Worlds-2020-Match-Prediction/blob/master/presentation.pdf)
+2. [Blog: Model Validation, Tuning, and Using GridsearchCV](https://towardsdatascience.com/gridsearchcv-for-beginners-db48a90114ee)
+
