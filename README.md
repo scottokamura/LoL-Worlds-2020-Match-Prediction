@@ -21,7 +21,7 @@ Before you continue, ensure you have met the following requirements:
 
 ## How to Use Repository
 1. Fork and clone this repository
-2. Open 'LoL Worlds 2020.ipynb'
+2. Open and run all cells in [Lol 2020 Worlds Prediction Notebook](https://github.com/scottokamura/LoL-Worlds-2020-Match-Prediction/blob/master/LoL%202020%20Worlds%20Prediction%20Notebook)
 
 ### Methods and Technologies Used
 - Pandas, numpy
